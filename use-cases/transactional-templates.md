@@ -32,7 +32,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const msg = {
   to: 'recipient@example.org',
   from: 'sender@example.org',
-  templateId: 'd-f43daeeaef504760851f727007e0b5d0',
+  template_id: 'd-f43daeeaef504760851f727007e0b5d0',
   dynamic_template_data: {
     subject: 'Testing Templates',
     name: 'Some One',
